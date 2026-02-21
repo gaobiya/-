@@ -1,0 +1,104 @@
+# ===================== Python 相关 =====================
+# 字节码文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python缓存/日志
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ===================== 虚拟环境 =====================
+.venv/
+venv/
+ENV/
+env/
+env.local/
+env.test/
+env/
+
+# ===================== PyInstaller 打包文件 =====================
+# 打包生成的临时文件
+build/
+# 打包后的EXE文件夹
+dist/
+# 打包配置文件
+*.spec
+
+# ===================== 项目特有文件 =====================
+# Excel导出文件（爬取结果）
+*.xlsx
+*.xls
+
+# 配置文件（可选忽略，若不想上传本地保存路径）
+config.json
+
+# 日志文件（若后续添加日志功能）
+*.log
+
+# ===================== IDE/编辑器配置 =====================
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+
+# ===================== 系统文件 =====================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
